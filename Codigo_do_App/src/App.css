@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(to right, rgb(4, 116, 253), rgb(4, 4, 4));
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.App {
+  width: 600px;
+  padding: 25px;
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+}
+
+label {
+  margin-top: 10px;
+  font-size: 22px;
+  color: white;
+  
+}
+
+
+h1 {
+  font-size: 70px;
+  color: aliceblue;
+}
+
+input {
+  display: block;
+  width: 65%;
+  height: 30px;
+  font-size: 17px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 5px;
+  outline: 0;
+  border-style: none;
+  box-shadow: 5px 4px 6px black;
+  }
+
+.calcular {
+  width: 200px;
+  padding: 5px;
+  margin-top: 25px;
+  border-radius: 5px;
+  font-size: 19px;
+  cursor: pointer;
+  transition-property: width, font-size;
+  transition: 200ms ease-in-out;
+  
+}
+
+.calcular:hover {
+  background-color: rgb(67, 250, 6);
+  color: rgb(12, 0, 0);
+  font-size: 20px;
+  width: 200px;
+}
+
+.resultado {
+  width: 200px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 25px;
+  font-size: 20px;
+  color: white;
+  
+}
+
+
+@media(max-width:500px) {
+  body {
+      background-color: linear-gradient(to right, rgb(29, 136, 207), rgb(110, 25, 145));
+  }
+
+  .container {
+      width: 100%;
+      margin-top: 10px;
+      box-sizing: border-box;
+  }
+
+  input {
+      width: 100%;
+  }
+
+  .baixo {
+      width: 95%;
+      font-size: 17px;
+  }
+}
+
+h4 {
+  text-align: center;
+  margin: auto;
+  background-color: rgb(247, 241, 239);
+  color: rgb(247, 6, 6);
+  border-radius: 10px;
+      text-align: center;
+      font-family: Verdana;
+      width:100%;
+  position:fixed;
+  bottom: 0px;
+  }
